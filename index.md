@@ -1,5 +1,51 @@
-## Welcome to GitHub Pages
 
+# Welcome to the simple-amari.py documentation!
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://invalidlenni.de/simple-amari.py/)
+A simple easy2use Python wrapper for the AmariBot API.
+
+
+
+
+
+## FAQ
+
+#### The API isn't working, why?
+
+because I'm searching an free host which supports backend hosting too.
+
+#### I found a typo or a grammar. How can I fix this?
+
+ - Fork the repository 
+ - Edit the file and fix the typo, grammar etc.
+ - Open a Pull Request for merging your changes into the main branch.
+## Installation
+
+Install simple-amari.py with PyPi.
+
+```bash
+  pip install simple-amari.py
+```
+    
+## Usage/Examples
+
+```python
+from amari import
+```
+
+
+## Acknowledgements
+ - [AmariBot (API)](https://amaribot.com/api/)
+ - [Status Badges](https://shields.io/)
+ - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Awesome README](https://github.com/matiassingers/awesome-readme)
+ - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+
+
+## Contributing
+
+Contributions are always welcome!
+
+## Contribution
 You can use the [editor on GitHub](https://github.com/InvalidLenni/simple-amari.py/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
@@ -26,12 +72,8 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/InvalidLenni/simple-amari.py/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Please adhere to this project's `code of conduct`.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
