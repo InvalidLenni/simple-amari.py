@@ -1,6 +1,6 @@
 
 # Welcome to the simple-amari.py documentation!
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://invalidlenni.de/simple-amari.py/)
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://invalidlenni.de/simple-amari.py/)\
 A simple easy2use Python wrapper for the AmariBot API.
 
 
