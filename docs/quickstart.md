@@ -1,3 +1,7 @@
+layout: page
+title: "Quickstart"
+
+
 Quickstart Guide
 ================
 
