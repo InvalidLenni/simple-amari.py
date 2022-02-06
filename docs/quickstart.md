@@ -1,6 +1,3 @@
-layout: page
-title: "Quickstart"
-
 
 Quickstart Guide
 ================
@@ -8,8 +5,8 @@ Quickstart Guide
 Requirements
 ------------
 
-- The library installed. Instructions to install the libary shown at the [Installation - Getting Started page](https://invalidlenni.de/simple-amari.py/getting-started/installation.md/).
-- An Amari API authorization token. Instructions to getting access shown at the [Getting Access - Getting Started page](https://invalidlenni.de/simple-amari.py/getting-started/getting-access.md/).
+- The library installed. Instructions to install the libary shown at the [Installation - Getting Started page](https://invalidlenni.de/simple-amari.py/getting-started/installation.html/).
+- An Amari API authorization token. Instructions to getting access shown at the [Getting Access - Getting Started page](https://invalidlenni.de/simple-amari.py/getting-started/getting-access.html/).
 
 Example
 -------
