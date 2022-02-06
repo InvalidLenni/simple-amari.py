@@ -4,7 +4,7 @@
 A simple easy2use Python wrapper for the AmariBot API.
 
 ## Getting Started with the libary
-[Installation](https://invalidlenni.github.io/simple-amari.py/getting-started/installation.md)
+[Getting Started](https://invalidlenni.github.io/simple-amari.py/getting-started/getting-started.md)
 
 ## FAQ
 
