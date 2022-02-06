@@ -54,7 +54,7 @@ class RatelimitException(HTTPException):
     def __init__(
         self,
         response: aiohttp.ClientResponse,
-        message: Optional[str] = "Slow down! You are being ratelimited!",
+        message: Optional[str] = "You are being ratelimited! Try again later.",
     ):
         super().__init__(response, message)
 
@@ -64,6 +64,6 @@ class AmariServerError(HTTPException):
     def __init__(
         self,
         response: aiohttp.ClientResponse,
-        message: Optional[str] = "There was an internal error in the Amari servers.",
+        message: Optional[str] = "It seems like, the amari servers has a internal server error! Try again later.",
     ):
         super().__init__(response, message)
