@@ -3,34 +3,19 @@
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://invalidlenni.de/simple-amari.py/)\
 A simple easy2use Python wrapper for the AmariBot API.
 
-
-
-
+## Getting Started with the libary
+[Installation](https://invalidlenni.github.io/simple-amari.py/getting-started/installation.md)
 
 ## FAQ
 
 #### The API isn't working, why?
 
-because I'm searching an free host which supports backend hosting too.
+You can check the status on the [AmariBot Support Server](https://amaribot.com/support/).
 
 #### I found a typo or a grammar. How can I fix this?
-
  - Fork the repository 
  - Edit the file and fix the typo, grammar etc.
  - Open a Pull Request for merging your changes into the main branch.
-## Installation
-
-Install simple-amari.py with PyPi.
-
-```bash
-  pip install simple-amari.py
-```
-    
-## Usage/Examples
-
-```python
-from amari import
-```
 
 
 ## Acknowledgements
