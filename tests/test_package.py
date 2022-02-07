@@ -1,5 +1,3 @@
-from​ ​amari​ ​import​ ​api
-from api import AmariClient 
 import pytest
 
 
