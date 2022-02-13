@@ -41,8 +41,8 @@ body:
       value: |
           - pip / python:
           - simple-amari.py:
-       validations:
-         required: true
+      validations:
+        required: true
   - type: textarea
     attributes:
       label: Anything else?
