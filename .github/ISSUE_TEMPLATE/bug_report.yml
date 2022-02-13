@@ -3,9 +3,6 @@ description: Create a bug report to help us to improve the libary.
 title: "[BUG]:"
 labels: ["bug"]
 body:
-  - type: markdown
-    attributes:
-      value: "Thanks for taking the time to fill out this bug!"
   - type: textarea
     id: current-behaivor
     attributes:
