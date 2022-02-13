@@ -32,7 +32,7 @@ class NotFound(HTTPException):
     def __init__(
         self,
         response: aiohttp.ClientResponse,
-        message: Optional[str] = "Guild or user was not found.",
+        message: Optional[str] = "404: User or Guild wasn't found.",
     ):
         super().__init__(response, message)
 
@@ -43,8 +43,8 @@ class InvalidToken(HTTPException):
     def __init__(self, response: aiohttp.ClientResponse, message: Optional[str] = None):
         super().__init__(
             response,
-            "Please enter a valid authentication key.\n"
-            "You can obtain your key at https://amaribot.com/developer/yourid",
+            "403: Please enter a valid authentication key.\n"
+            "You can obtain your key at https://amaribot.com/developer/<USERID>.",
         )
 
 
@@ -54,7 +54,7 @@ class RatelimitException(HTTPException):
     def __init__(
         self,
         response: aiohttp.ClientResponse,
-        message: Optional[str] = "You are being ratelimited! Try again later.",
+        message: Optional[str] = "429: You are being ratelimited! Try again later.",
     ):
         super().__init__(response, message)
 
@@ -64,6 +64,6 @@ class AmariServerError(HTTPException):
     def __init__(
         self,
         response: aiohttp.ClientResponse,
-        message: Optional[str] = "It seems like, the amari servers has a internal server error! Try again later.",
+        message: Optional[str] = "500: It seems like, the amari servers has a internal server error! Try again later.",
     ):
         super().__init__(response, message)
