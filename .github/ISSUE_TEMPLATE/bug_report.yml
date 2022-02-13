@@ -4,12 +4,8 @@ title: "[BUG]:"
 labels: ["bug"]
 body:
   - type: markdown
-    id: thanks
     attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
-    validations:
-      required: false
+      value: "Thanks for taking the time to fill out this bug!"
   - type: textarea
     id: current-behaivor
     attributes:
