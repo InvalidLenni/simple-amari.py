@@ -31,18 +31,18 @@ body:
       label: Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
-  - type: dropdown
+  - type: textarea
     attributes:
-      label: simple-amari.py
-      description: What version of simple-amari.py are you using?
-      multiple: false
-      options:
-        - label: stable (v1.0.1)
-        - label: beta
-        - label: alpha
-        - label: dev
-     validations:
-       required: true
+      label: Environment
+      description: |
+        examples:
+          - **simple-amari.py**: 1.0.1
+          - **pip / python**: 3.9
+      value: |
+          - pip / python:
+          - simple-amari.py:
+       validations:
+         required: true
   - type: textarea
     attributes:
       label: Anything else?
