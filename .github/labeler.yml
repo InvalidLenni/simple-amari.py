@@ -1,0 +1,6 @@
+# Add 'root' label to any root file changes
+root:
+- '*'
+
+@.github/workflows:
+- .github/workflows/*
