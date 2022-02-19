@@ -88,8 +88,8 @@ class AmariClient:
             wait_amount = 2 ** count
 
             logger.warning(
-                "Slow down, you are about to be rate limited. "
-                f"Trying again in {wait_amount} seconds."
+                "You are being ratelimited! "
+                f"Try again later in {wait_amount} seconds."
             )
             await asyncio.sleep(wait_amount)
 
